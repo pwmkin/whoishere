@@ -879,7 +879,7 @@ class NetworkScanner:
     def save_as_html(self, filename):
         """Save results as HTML file"""
         try:
-            with open(filename, 'w') as f:
+            with open(filename, 'w', encoding='utf-8') as f:
                 # Write HTML header
                 f.write('''<!DOCTYPE html>
 <html>

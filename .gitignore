@@ -1,3 +1,4 @@
 device_fingerprints.json
 mac_vendors.csv
 *.pyc
+result.html
