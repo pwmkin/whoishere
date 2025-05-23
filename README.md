@@ -17,6 +17,31 @@ An advanced network scanning tool written in Python that discovers devices on lo
 - Python 3.6 or higher  
 - Libraries: scapy, netifaces  
 
+### Additional Setup (Linux)
+
+If you're using a Linux-based system and encounter issues when installing dependencies (especially `netifaces`), you may need to install additional development tools and headers:
+
+#### Ubuntu/Debian:
+
+```bash
+sudo apt update
+sudo apt install python3-dev build-essential
+```
+
+#### Fedora/RHEL/CentOS:
+
+```bash
+sudo dnf install python3-devel gcc
+```
+
+#### Arch Linux:
+
+```bash
+sudo pacman -S python
+```
+
+These packages are required to compile certain dependencies from source, especially those using C extensions.
+
 ## Installation  
 
 ```bash  
